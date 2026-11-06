@@ -16,3 +16,13 @@
 .gallery-team{background:linear-gradient(145deg,#315b72,#83aabd)}
 @media(max-width:900px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.gallery-grid{grid-template-columns:1fr}.gallery-placeholder{min-height:210px}}
+
+
+.gallery-card{position:relative;min-height:270px;overflow:hidden;background:#102a43}
+.gallery-card img{display:block;width:100%;height:270px;object-fit:cover;transition:transform .35s ease}
+.gallery-card:hover img{transform:scale(1.04)}
+.gallery-card>div{position:absolute;left:0;right:0;bottom:0;padding:38px 18px 16px;background:linear-gradient(transparent,#071b2cdd);color:#fff}
+.gallery-card b,.gallery-card small{display:block}
+.gallery-card b{font:800 16px Manrope}
+.gallery-card small{font-size:10px;color:#d5e5ef;margin-top:4px}
+@media(max-width:480px){.gallery-card img{height:230px}}
