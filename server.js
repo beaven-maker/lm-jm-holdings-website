@@ -4,7 +4,7 @@ const path = require("node:path");
 
 const PORT = process.env.PORT || 3000;
 const ROOT = path.join(__dirname, "public");
-const COMPANY_CONTEXT = `LM AND JM HOLDINGS (PTY) LTD is a South African company focused on cleaning, hygiene, safety, and workplace health and wellness services. Its stated service areas include cleaning, hygiene, safety and workplace health/wellness support. The company serves private, public, corporate, health, institutional, construction/civil, and rehabilitation-facility sectors. The company profile describes it as 100% black-owned and emphasizes customer satisfaction, job creation, employee development, integrity, compliance, and service excellence.
+const COMPANY_CONTEXT = `LM AND JM HOLDINGS (PTY) LTD is a South African company focused on cleaning, hygiene, safety, workplace health and wellness services, and the supply of bakery and confectionery essentials. Its stated service areas include cleaning, hygiene, safety, workplace health/wellness support, and bakery and confectionery essentials supply. The company serves private, public, corporate, health, institutional, construction/civil, and rehabilitation-facility sectors. The company profile describes it as 100% black-owned and emphasizes customer satisfaction, job creation, employee development, integrity, compliance, and service excellence.
 Address: No 3713 Martin Mabit sela, Far East Bank, Alexandra, 2090, Johannesburg, Gauteng, South Africa.
 Phone: 081337 0020 / 0816545504.
 Email: lmjmholdings78@gmail.com.
